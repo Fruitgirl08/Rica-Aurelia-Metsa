@@ -1,0 +1,110 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Skip link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: black;
+    color: white;
+    padding: 8px;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+header a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Main (Flexbox) */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 20px;
+}
+
+/* Logo */
+.logo {
+    width: 200px;
+}
+
+/* Search box */
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 15px;
+    width: 400px;
+    gap: 10px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e8e8e8;
+}
+
+/* Footer (Grid) */
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f2f2f2;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .logo {
+        width: 150px;
+    }
+
+    .search-container {
+        width: 90%;
+    }
+}
