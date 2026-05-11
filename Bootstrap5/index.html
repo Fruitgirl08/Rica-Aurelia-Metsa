@@ -1,17 +1,121 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="et">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Net Ninja Pro - the Book</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <link href="/css/main.min.css" rel="stylesheet">
-  <style>
-    section{
-      padding: 60px 0;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raamatu Tutvustus</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #343a40, #212529);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .book-card img {
+            height: 450px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
- 
+    <!-- Päis -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Raamatu Tutvustus</h1>
+            <p class="lead">Tutvu ühe põneva ja kaasahaarava raamatuga</p>
+        </div>
+    </section>
+
+    <!-- Sisu -->
+    <div class="container my-5">
+        <div class="row align-items-center g-5">
+
+            <!-- Raamatu pilt -->
+            <div class="col-lg-4">
+                <div class="card shadow-lg book-card">
+                    <img src="thehobbit.jpg"
+                         class="card-img-top"
+                         alt="Raamatu pilt" />
+                </div>
+            </div>
+
+            <!-- Raamatu info -->
+            <div class="col-lg-8">
+                <h2 class="fw-bold">"The Hobbit"</h2>
+                <h4 class="text-muted mb-3">Autor: J. R. R. Tolkien</h4>
+
+                <p>
+                    "The Hobbit" on maailmakuulus fantaasiaromaan, mis räägib
+                    Bilbo Bagginsi seikluslikust teekonnast koos päkapikkudega.
+                    Nad asuvad otsima kadunud aaret ja kohtuvad oma rännakul
+                    erinevate ohtude ning põnevate tegelastega.
+                </p>
+
+                <p>
+                    Teos on tuntud oma kaasahaarava loo, rikkaliku maailmaehituse
+                    ja meeldejäävate tegelaste poolest. See paneb lugeja kaasa
+                    elama ning avastama fantaasiamaailma võlusid.
+                </p>
+
+                <!-- Info -->
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card text-center shadow-sm p-3">
+                            <h5>Aasta</h5>
+                            <p>1937</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card text-center shadow-sm p-3">
+                            <h5>Žanr</h5>
+                            <p>Fantaasia</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card text-center shadow-sm p-3">
+                            <h5>Hinnang</h5>
+                            <p>4.8 / 5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nupp -->
+                <div class="mt-4">
+                    <button class="btn btn-dark btn-lg">
+                        Loe rohkem
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jalus -->
+    <footer>
+        <p class="mb-0">© 2026 Raamatu Tutvustus | Bootstrap veebileht</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
