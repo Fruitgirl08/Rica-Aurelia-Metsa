@@ -1,0 +1,24 @@
+{
+  "name": "rica-aurelia-metsa",
+  "version": "1.0.0",
+  "description": "Html ja css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fruitgirl08/Rica-Aurelia-Metsa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Fruitgirl08/Rica-Aurelia-Metsa/issues"
+  },
+  "homepage": "https://github.com/Fruitgirl08/Rica-Aurelia-Metsa#readme",
+  "devDependencies": {
+    "sass": "^1.99.0"
+  }
+}
