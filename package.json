@@ -4,7 +4,10 @@
   "description": "Html ja css",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass ./Sass/sass/index.scss ./Sass/style.css",
+    "watch": "sass --watch ./Sass/sass/index.scss:./Sass/style.css",
+    "start": "npm run watch"
   },
   "repository": {
     "type": "git",
