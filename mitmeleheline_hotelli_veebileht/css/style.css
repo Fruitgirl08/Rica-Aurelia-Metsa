@@ -133,6 +133,13 @@ h1, h2, h3{
     background: #f7c08a;
     color: #333;
 }
+.bg-pink {
+    background: #ff66b2;
+    color: #333;
+}
+.text-white {
+    color: #fff !important;
+}
 #navbar ul li a:hover {
     background: #444;
     color: #f7c08a;
@@ -185,7 +192,10 @@ footer {
 #info .info-img {
     float: left;
     width: 50%;
-    background: url('../img/photo-1.jpg') no-repeat;
+    background-image: url('../img/photo-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     min-height: 100%;
 }
 #info .info-content {
